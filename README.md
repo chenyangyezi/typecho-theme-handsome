@@ -2,29 +2,117 @@
 
 > 如少年般，迎风而立
 
-[在线预览 Preview ](https://www.ihewro.com/archives/489/) | [使用文档](https://handsome.ihewro.com/#//) | [English Documentation]() 
+[**☞ Live Preview**](https://www.ihewro.com/archives/489/)  |  [**✎ 中文版使用文档**](https://handsome.ihewro.com/)
 
 
-![handsome](https://ww4.sinaimg.cn/large/a15b4afegy1fdwvucupnwj20rs0hwq6v)
-
-## 贡献 Contributing
-
-欢迎各种形式的贡献，包括但不限于优化，添加功能，文档 & 代码的改进，问题和 bugs 的报告。期待您的`Pull Request`。
-
-All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
-
-## 许可证 License 
-
-所有代码根据[GPL-3.0协议](https://github.com/ihewro/typecho-theme-handsome/blob/master/LICENSE)。换句话说，你可以使用或者修改代码，但是你不能用于商业目的。
-
-All code licensed under the [GPL-3.0 License](https://github.com/ihewro/typecho-theme-handsome/blob/master/LICENSE). In other words you can use or modify the code freely but you can not use it for business purposes.
+![handsome](https://www.ihewro.com/usr/uploads/2017/04/808204957.png)
 
 ## [开发日志 Changelog](https://handsome.ihewro.com/#/changelog) 
 
-[![author](https://img.shields.io/badge/author-Hewro-blue.svg?style=flat-square)](http://www.ihewro.xyz) 
-[![GitHub issues](https://img.shields.io/github/issues/ihewro/typecho-theme-handsome.svg?style=flat-square)](https://github.com/ihewro/typecho-theme-handsome/issues)
-[![GitHub forks](https://img.shields.io/github/forks/ihewro/typecho-theme-handsome.svg?style=flat-square)](https://github.com/ihewro/typecho-theme-handsome/network)
-[![GitHub stars](https://img.shields.io/github/stars/ihewro/typecho-theme-handsome.svg?style=flat-square)](https://github.com/ihewro/typecho-theme-handsome/stargazers)
-[![helpdocs](https://img.shields.io/badge/Docs-HELP-red.svg?style=flat-square)](https://github.com/ihewro/typecho-theme-handsome/wiki/%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3) 
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg?style=flat-square)](https://raw.githubusercontent.com/ihewro/typecho-theme-handsome/master/LICENSE)
-![qqgroup](https://img.shields.io/badge/QQ群-611102614-red.svg?style=flat-square)
+> #### 2017-5-20 更新至3.0.0
+
+1. 优化了播放器显示界面，增加显示歌名与作者
+2. 优化了pjax加载的动画，删除了原来枯燥的进度条
+3. 重新定义了主题的web图标，可以使用的图标资源大大增加
+3. 左侧侧边栏可以简单自定义项目了
+4. 顶部导航栏可以简单自定义图标了
+5. 增加提供主题增强包：网易云音乐歌单页面和画廊
+6. 重构主题部分代码
+7. 优化主题细节部分，更快更快更快
+ 
+> #### 2017-5-11 更新至2.2.1
+
+1. 彻底更新了多语言支持功能。默认根据浏览器语言设置自动切换，也可以在后台手动切换。用户可以自定义自己的语言包，原则上，模板的每一处文字，都可以简单通过语言包自定义
+2. 增加网易云音乐解析，后台一键解析音乐链接，再也不用烦恼用什么链接了！
+3. 增加后台在线检查更新功能。主题有更新，打开后台就能快速看到，再也不用担心错误更新了~
+4. 增加公告栏目 ，重要的事情通知访客，就这么简单
+5. 增加主题透明度选项。背景是图片？后台设置一个数字，即可完成透明度更高
+7. 增加分享文章功能。文章想分享给好朋友一起看？没问题！
+8. 增加dns预解析功能，你的网站加载更快！
+9. 重写了大部分的主题代码。主题第一次发布的日期是16年的12月份，那时候对代码规范性意识很弱。这次，重构了很多代码，当然还有其他部分代码重构会在下次更新完成。
+10. fix #46 fix #47 修复时光机页面显示时间过长导致样式错乱
+
+
+> #### 2017-3-23 更新至2.1.2
+
+1. 增加了效果非常好看的灯箱效果
+2. 增加了短代码的功能，加强文章文字效果
+3. 后台集成支持七牛云镜像加速功能
+4. 增加了豆瓣书单的自定义模板，用户在创建该独立页面的时候，自定义字段名称为：doubanID，值为你的豆瓣ID
+5. 增加了后台自定义添加js和css的位置
+6. 增加了tooltip.js 功能，在一些链接上悬浮会有小提示泡的样式。
+7. 适配了为开启伪静态导致的404问题
+8. 修复了含www和不含www域名下的跨域问题导致页面资源调用失败问题。
+9. 不再使用TePostViews插件！！！只使用links插件，links插件有修改！！！请务必更新插件
+10. 调整了js顺序，加快网页的渲染，尤其针对Firefox滚动做了优化 fix #35
+11. 优化一系列细节部分，修复一些bug fix #24
+12. 重写了部分函数，优化逻辑
+13. 删除了节日祝贺的后台功能和一些不必要的代码
+
+---
+
+> #### 2017-1-24 更新至2.0.0
+
+1. 增加了文章目录树（仅在电脑端显示）
+2. 增加了lang属性,优化SEO
+3. 修复由于预加载导致的MathJax失效问题
+4. 优化了文章页面内的链接样式
+5. 优化了文章内的图片样式
+6. 添加 I18n 支持（支持三种语言：中文简体、繁体与英语）
+7. 添加了评论框处了[表情]功能
+8. 增加图片延迟加载效果
+9. 增加了节日祝贺的功能
+10. 增加 已经评论过的游客的效果
+11.  增加了返回顶部功能
+12. 修复一系列bug
+13. 后台功能完善
+
+---
+
+> #### 2016-12-27 更新至 1.6.0
+
+老用户更新时，请查看插件文件夹，不再使BufannaoCms插件，换成更加轻巧的针对handsome主题优化的TePostViews插件（7kb）！
+1. 增加了播放器！！试试吧！
+2. 评论实现了无限嵌套哦！而且修复了锚点链接的定位偏差
+3. 登录的按钮也有登录中的效果了！
+4. 对于iconfont图标重新选择，更加美观了！
+5. 还有一些小的细节变动，自己发现吧~~
+6. 一些bug修复~
+
+---
+
+> #### 2016-12-20 更新至 1.5.0
+
+1. 文章页面的自定义字段thumb值为no，则不输出当前文章头图（新功能！）
+2. 修复了几个样式错误
+3. 增加后台设置 安卓chrome浏览器地址栏颜色
+4. 增加 左侧边栏的点击名称后的选项卡的内容
+
+---
+
+> #### 2016-12-19 更新至 1.4.0
+
+1. 评论提交按钮点击更好看的效果啦~（我超喜欢这个效果）
+2. 新的友情链接页面写出来啦~这个是不是好看一点了呢？
+3. 博文头图的显示方式后台有三种方式了哦！
+4. 后台还加了一些小的设置，更方面大家个性化修改了：比如填写备案号、更改加载条的颜色、填写instantclick回调函数和时光机页面的头图
+5. 修复了一些bug
+6. 优化了一些样式
+
+---
+
+> #### 2016-12-10 更新至 1.3.0
+
+1. 后台增加“折叠头像”功能
+2. 后台增加“自定义gravatar CDN地址”功能
+3. 后台增加“自定义缩略图个数”个数
+4. “时光机”页面增加了“添加图片”小功能
+
+---
+
+> #### 2016-12-07 更新至 1.2.0
+
+1. 修复若干instantclick带来的bug
+2. 更新了404页面
+3. 后台增加了instantclick的预加载方式选择
+4. 管理员登陆后前台有可编辑的按钮，方便进入后台编辑当前文章
