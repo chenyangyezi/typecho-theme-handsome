@@ -1,4 +1,4 @@
-# handsome
+# handsome v3.1
 
 > 如少年般，迎风而立
 
